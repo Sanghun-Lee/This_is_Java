@@ -2,8 +2,8 @@ package exception_10.throw_;
 
 /*** Throw 예시 ***/
 // throws 는 메소드에서 사용할 수 있다.
-    // throws 를 쓰게되면, 메소드 실행 중간에 에러가 일어나게 되면, throws [[예외이름]]에 해당된다면
-    // 해당 메소드를 호출한 부분에서 예외를 처리하도록 해준다.
+// throws 를 쓰게되면, 메소드 실행 중간에 에러가 일어나게 되면, throws [[예외이름]]에 해당된다면
+// 해당 메소드를 호출한 부분에서 예외를 처리하도록 해준다.
 
 public class ThrowsExample {
     public static void main(String[] args) {
