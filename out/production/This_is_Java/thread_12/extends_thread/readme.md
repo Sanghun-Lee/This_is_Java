@@ -10,4 +10,3 @@ main함수에서는
 Thread thread = new Extends_class(); // 이렇게 객체를 생성한다.
 thread.start(); // start 메소드로 extneds class에서 Override 한 run 메소드가 실행된다.
 ```
-
