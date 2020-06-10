@@ -1,6 +1,6 @@
 ### ArrayList
 
- 1. ArrayList 객체 생성 방법
+1.  ArrayList 객체 생성 방법
 
 - ArrayList<T> arraylist = new ArrayList<T>();
 - List<T> list = new ArrayList<T>();
