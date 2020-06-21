@@ -3,7 +3,7 @@ package interface_8.interface_;
 public class RemoteControlExample {
     public static void main(String[] args) {
         // 인터페이스 객체 생성
-        RemoteControl rc;
+        RemoteControl rc = null;
         rc = new Television();  // interface 를 implements 한 Class만 대입할 수 있다.
 
         rc.turnOn();        // Television 의 turnOn 메소드 호출

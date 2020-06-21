@@ -16,10 +16,10 @@ public class SmartTelevision implements RemoteControl, Searchable {
 
     @Override
     public void setVolume(int volume) {
-        if(volume > interface_8.interface_.RemoteControl.MAX_VOLUME)
-            this.volume = interface_8.interface_.RemoteControl.MAX_VOLUME;
-        else if(volume < interface_8.interface_.RemoteControl.MIN_VOLUME)
-            this.volume = interface_8.interface_.RemoteControl.MIN_VOLUME;
+        if(volume > RemoteControl.MAX_VOLUME)
+            this.volume = RemoteControl.MAX_VOLUME;
+        else if(volume < RemoteControl.MIN_VOLUME)
+            this.volume = RemoteControl.MIN_VOLUME;
         else
             this.volume = volume;
     }
@@ -30,4 +30,9 @@ public class SmartTelevision implements RemoteControl, Searchable {
         System.out.println(url + "을 검색합니다.");
     }
     // Searchable interface 의 추상메소드를 구현한 실체 메소드
+
+    public static void main(String[] args) {
+        SmartTelevision smartTelevision = new SmartTelevision();
+
+    }
 }
