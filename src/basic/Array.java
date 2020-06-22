@@ -1,5 +1,12 @@
 package basic;
 
+/**
+ * 배열
+ * 배열 생성 및 초기화
+ * 다차원 배열 생성 및 초기화
+ * api를 활용한 배열의 복사
+ */
+
 public class Array {
     public static void main(String[] args) {
         // 배열 생성과 동시에 초기화

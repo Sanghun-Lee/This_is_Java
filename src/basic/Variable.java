@@ -1,5 +1,10 @@
 package basic;
 
+/**
+ * 기본 변수
+ * primitive type variable
+ */
+
 public class Variable {
     public static void main(String[] args) {
         // 10을 변수 value의 초기값으로 설정

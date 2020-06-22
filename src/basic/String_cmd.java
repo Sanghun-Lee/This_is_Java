@@ -1,5 +1,11 @@
 package basic;
 
+/**
+ * String compare
+ * String이 reference 변수임을 알고,
+ * String 변수를 비교하는 방법에 대해서 이해하자.
+ */
+
 public class String_cmd {
     public static void main(String[] args) {
         String str1 = "hun";

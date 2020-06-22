@@ -8,6 +8,8 @@ package interface_8.default_method.inheritance;
 
 public class Example {
     public static void main(String[] args) {
+        // ChildInterface1은 ParentInterface를 단순 상속만 받았고,
+        // 그래서 ParentInterface의 method1, ChildInterface1의 method3만 재정의 해서 구현 클래스를 생성한다.
         ChildInterface1 ci1 = new ChildInterface1() {
             @Override
             public void method3() {
@@ -26,6 +28,9 @@ public class Example {
 
         System.out.println();
 
+        // ChildInterface2는 ParentInterface를 상속받고, default-method 또한 재정의 하였다.
+        // 그래서 ParentInterface의 method1, ChildInterface2의 method3만 재정의 해서 구현 클래스를 생성한다.
+        // ChildInterface2에서 default-method를 재정의 했기 때문에 ci2.method2()를 호출하면 ChildInterface2의 method2가 호출된다.
         ChildInterface2 ci2 = new ChildInterface2() {
             @Override
             public void method3() {
@@ -44,6 +49,8 @@ public class Example {
 
         System.out.println();
 
+        // ChildInterface3는 ParentInterface를 상속받고, default-method또한 추상메소드로 변경했기 때문에
+        // method1, method2, method3 모두 재정의 해서 구현 클래스를 생성해야 한다.
         ChildInterface3 ci3 = new ChildInterface3() {
             @Override
             public void method2() { // 추상메소드로 재선언 했기 때문에 재정의 해주어야 한다.

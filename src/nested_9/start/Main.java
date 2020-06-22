@@ -1,11 +1,15 @@
 package nested_9.start;
 
+// 실행 클래스
+
 public class Main {
     public static void main(String[] args) {
         A a = new A();
 
         // 인스턴스 멤버 클래스 객체 생성
+        // A객체 a를 이용해서 B객체를 생성할 수 있다.
         A.B b = a.new B();      // A객체 생성 후 인스턴스 멤버 클래스를 생성할 수 있다.
+        // A.B b2 = new A.B();  // 이렇게는 안된다.
         b.field1 = 3;
         b.method1();
 

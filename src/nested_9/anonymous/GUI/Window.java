@@ -13,6 +13,7 @@ public class Window {
             System.out.println("전화를 겁니다.");
         }
     };
+    // Button.OnClickListener : 인터페이스 이름
 
     public Window() {
         button1.setOnClickListener(listener);   // 메소드의 매개변수로 필드값을 대입힌다.

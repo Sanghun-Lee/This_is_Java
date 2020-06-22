@@ -1,5 +1,10 @@
 package basic;
 
+/**
+ * Enum의 사용
+ *
+ */
+
 public class Enum_example {
     public static void main(String[] args) {
         /* ----- enum의 기본적으로 지원하는 메서드들 사용 ----- */
