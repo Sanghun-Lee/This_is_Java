@@ -12,7 +12,6 @@ package nested_9.start;
  * 로컬 클래스도 로컬 변수라 생각하면 좀 쉽다.
  */
 
-
 // 바깥 클래스
 public class A {
     // A constructor
