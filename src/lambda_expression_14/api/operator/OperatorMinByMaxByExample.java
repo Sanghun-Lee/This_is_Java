@@ -1,5 +1,6 @@
-package lambda_expression_14.api.minby_maxby;
+package lambda_expression_14.api.operator;
 
+import java.util.Comparator;
 import java.util.function.BinaryOperator;
 
 public class OperatorMinByMaxByExample {
@@ -14,6 +15,13 @@ public class OperatorMinByMaxByExample {
         binaryOperator = BinaryOperator.maxBy((f1, f2) -> Integer.compare(f2.price, f1.price));
         fruit = binaryOperator.apply(new Fruit("딸기", 6000), new Fruit("수박", 10000));
         System.out.println(fruit.name);
+
+        binaryOperator = BinaryOperator.minBy(new Comparator<Fruit>() {
+            @Override
+            public int compare(Fruit o1, Fruit o2) {
+                return Integer.compare(o1.price, o2.price);
+            }
+        });
     }
 }
 

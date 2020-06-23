@@ -20,13 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cf5c60c-5c46-4035-a00e-8fc6bb40c5b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nested_9/access_control/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_9/local_class/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_9/start/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/consumer/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/andThen_compose/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/predicate/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/function/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/operator/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/predicate/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/supplier/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/functional_interface/just_parameter/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/functional_interface/no_return_no_parameters/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/functional_interface/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/functional_interface/return_and_parameters/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/constructor/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/method/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/parameter/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nested_9/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/nested_9/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nested_9/local_class/Outter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nested_9/local_class/Outter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nested_9/start/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nested_9/start/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/ConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/consumer/ConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/OperatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/operator/OperatorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/SupplierExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/supplier/SupplierExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/andThen_compose/FunctionAndThenComposeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/andThen_compose/FunctionAndThenComposeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/predicate/PredicateAndOrNegateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/predicate/PredicateAndOrNegateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/function/FunctionExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/function/FunctionExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/minby_maxby/OperatorMinByMaxByExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/operator/OperatorMinByMaxByExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/predicate/PredicateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/predicate/PredicateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/constructor/ConstructorReferencesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/constructor/ConstructorReferencesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/constructor/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/constructor/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/method/MethodReferenceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/method/MethodReferenceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +123,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="161" key="#Plugins" timestamp="1592897774248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#Plugins/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1592897774248" />
     <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1591768198865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -124,9 +151,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="465" y="184" key="SettingsEditor/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1591769736217" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592725632852">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592899438709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1592725632852" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1592899438709" />
   </component>
 </project>

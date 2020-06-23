@@ -30,5 +30,14 @@ public class PredicateExample {
 
         double femaleAvg = avg(t -> t.getSex().equals("여자"));
         System.out.println("여자 평균 점수 : " + femaleAvg);
+
+        // 람다식 없이 익명 구현 객체를 이용하면 다음과 같다.
+        maleAvg = avg(new Predicate<Student>() {
+            @Override
+            public boolean test(Student student) {
+                return student.getSex().equals("남자");
+            }
+        });
+        System.out.println("남자 평균 점수 : " + maleAvg);
     }
 }

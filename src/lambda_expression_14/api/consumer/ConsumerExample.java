@@ -1,4 +1,4 @@
-package lambda_expression_14.api;
+package lambda_expression_14.api.consumer;
 
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;

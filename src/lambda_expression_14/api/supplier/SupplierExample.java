@@ -1,4 +1,4 @@
-package lambda_expression_14.api;
+package lambda_expression_14.api.supplier;
 
 // Supplier : 매개 변수가 없고, 리턴값이 있는 getXXX() 메소드를 가진다.
 

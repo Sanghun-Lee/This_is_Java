@@ -7,8 +7,24 @@ public class PredicateAndOrNegateExample {
         // 2의 배수 검사
         IntPredicate predicateA = a -> a % 2 == 0;
 
+        // 익명 구현 객체
+        predicateA = new IntPredicate() {
+            @Override
+            public boolean test(int value) {
+                return value % 2 == 0;
+            }
+        };
+
         // 3의 배수 검사
         IntPredicate predicateB = (a) -> a % 3 == 0;
+
+        // 익명 구현 객체
+        predicateB = new IntPredicate() {
+            @Override
+            public boolean test(int value) {
+                return value % 3 == 0;
+            }
+        };
 
         IntPredicate predicateAB;
         boolean result;

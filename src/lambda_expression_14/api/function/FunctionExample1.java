@@ -41,5 +41,13 @@ public class FunctionExample1 {
 
         System.out.println("[수학 점수]");
         printInt(t -> t.getMathScore());
+
+        // 람다식이 아닌, 익명 구현 객체를 이용하면 아래와 같다.
+        printString(new Function<Student, String>() {
+            @Override
+            public String apply(Student student) {
+                return student.getName();
+            }
+        });
     }
 }
