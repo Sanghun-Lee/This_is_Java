@@ -3,6 +3,15 @@ package stream_16.stream;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 스트림의 특징3
+ * 스트림은 중간 처리와 최종 처리를 할 수 있다.
+ *
+ * 중간 처리는 filtering, mapping, sorting, looping
+ * 최종 처리는 matching, collect, looping, aggregate
+ * 에서 살펴볼 수 있다.
+ */
+
 public class MapAndReduceExample {
     public static void main(String[] args) {
         List<Student> studentList = Arrays.asList(

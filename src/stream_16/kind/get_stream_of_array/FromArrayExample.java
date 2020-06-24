@@ -4,13 +4,15 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-// 배열에서 stream을 얻는 방법
-// Arrays.stream(T[]) : Stream<T> 리턴
-// Arrays.stream(int[] / long[] / double[]) : IntStream / LongStream / DoubleStream 리턴
-// Stream.of(T[]) : Stream<T> 리턴
-// IntStream.of(int[]) : IntStream
-// LongStream.of(long[]) : LongStream
-// DoubleStream.of(double[]) : DoubleStream
+/**
+ * 배열에서 stream을 얻는 방법
+ * Arrays.stream(T[]) : Stream<T> 리턴
+ * Arrays.stream(int[] / long[] / double[]) : IntStream / LongStream / DoubleStream 리턴
+ * Stream.of(T[]) : Stream<T> 리턴
+ * IntStream.of(int[]) : IntStream
+ * LongStream.of(long[]) : LongStream
+ * DoubleStream.of(double[]) : DoubleStream
+ */
 
 public class FromArrayExample {
     public static void main(String[] args) {

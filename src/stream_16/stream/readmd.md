@@ -23,7 +23,26 @@ Stream<String> stream = list.stream();
 stream.forEach(name -> System.out.println(name));
 ```
 
-Stream의 `forEach`메소드는 Consumer 함수적 인터페이스 타입을 가지고 있다.
+위 내용은 `IteratorVsStreamExample.java` 파일에서 확인할 수 있다.
+
+Stream의 `forEach` 메소드는 `Consumer` 함수적 인터페이스 타입을 가지고 있다.
+
+> Consumer 함수적 인터페이스
+>
+> 입력값을 소비만 하고 출력하진 않는다.
+
+Consumer 인터페이스
+
+```java
+@FunctionalInterface
+public interface Consumer<T> {
+    void apply(T t);
+}
+```
+
+> forEach 메소드 형태
+
+`void forEach(Consumer<? super T> var1);`
 
 ### Stream의 특징
 
