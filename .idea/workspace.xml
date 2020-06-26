@@ -20,43 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cf5c60c-5c46-4035-a00e-8fc6bb40c5b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream_16/aggregate/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream_16/filtering/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream_16/mapping/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream_16/matching/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream_16/reduce/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream_16/collect/MaleStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream_16/collect/MaleStudentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream_16/collect/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/basic/Readmd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/ReadMd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/default_method/Readmd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/default_method/inheritance/Readmd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/inheritance/Readmd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/interface_/Readmd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/multi_interface/Readmd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/nested_9/Readmd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/filtering/FilteringExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/filtering/FilteringExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/filtering/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/filtering/readmd.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/mapping/FlatMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/mapping/FlatMapExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/pipeline/StreamPipelinesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/pipeline/StreamPipelinesExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/pipeline/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/pipeline/readmd.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/function/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/function/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/aggregate/AggregateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/aggregate/AggregateExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/aggregate/OptionalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/aggregate/OptionalExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/filtering/FilteringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/filtering/FilteringExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/filtering/readmd.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/kind/get_stream_of_collection/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/kind/get_stream_of_collection/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/looping/LoopingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/looping/LoopingExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/looping/Readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/looping/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/mapping/AsDoubleStreamAndBoxedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/mapping/AsDoubleStreamAndBoxedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/mapping/FlatMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/mapping/FlatMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/mapping/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/mapping/MapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/matching/MatchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/matching/MatchExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/pipeline/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/pipeline/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/reduce/ReductionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/reduce/ReductionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/sorting/Readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/sorting/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/sorting/SortingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/sorting/SortingExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/sorting/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/sorting/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stream_16/stream/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/stream/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/collect/ToListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/collect/ToListExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +52,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.FlatMapExample">
+  <component name="RunManager" selected="Application.MaleStudentExample">
     <configuration name="ButtonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nested_9.interface_.ButtonExample" />
       <module name="This_is_Java" />
@@ -124,8 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaleStudentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream_16.collect.MaleStudentExample" />
+      <module name="This_is_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream_16.collect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaleStudentExample" />
         <item itemvalue="Application.FlatMapExample" />
         <item itemvalue="Application.FilteringExample" />
         <item itemvalue="Application.ButtonExample" />

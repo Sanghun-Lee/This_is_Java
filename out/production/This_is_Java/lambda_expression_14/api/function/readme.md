@@ -50,3 +50,20 @@ public static void main(String[] args){
     printString(t -> t.getName());
 }
 ```
+
+Function 메소드 중
+
+`ToXXXFunction<T>` : T를 XXX형태로 변환한다.
+
+추상메소드 : applyAsXXX(T t)
+
+예를들어 `ToIntFunction<T>`는 T를 받아서 int형태로 변환한다.
+
+`XXXFunction<R>` : XXX를 R형태로 변환한다.
+
+추상메소드 : R apply(int value)
+
+예를 들어 `IntFunction<R>` : int를 R형태로 변환한다.
+
+`IntToDoubleFunction` : int를 double형태로 변환한다.
+

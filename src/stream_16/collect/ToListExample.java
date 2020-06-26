@@ -6,6 +6,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -36,7 +38,27 @@ public class ToListExample {
         // 여학생들만 묶어 HashSet 생성
         Set<Student> femaleSet = totalList.stream()
                 .filter(s -> s.getSex() == Student.Sex.FEMALE)
-                .collect(Collectors.toCollection(HashSet::new));
+                .collect(Collectors.toCollection(HashSet::new));    // 생성자 참조
+
+        femaleSet = totalList.stream()
+                .filter(s -> s.getSex() == Student.Sex.FEMALE)
+                .collect(Collectors.toCollection(() -> new HashSet<>()));
+        // Collection 안에는 Supplier 인터페이스가 있다.
+
+        // 람다식을 사용하지 않으면 아래와 같다.
+        femaleSet = totalList.stream()
+                .filter(new Predicate<Student>() {
+                    @Override
+                    public boolean test(Student s) {
+                        return s.getSex() == Student.Sex.FEMALE;
+                    }
+                })
+                .collect(Collectors.toCollection(new Supplier<HashSet<Student>>() {
+                    @Override
+                    public HashSet<Student> get() {
+                        return new HashSet<Student>();
+                    }
+                }));
 
         femaleSet.forEach(s -> System.out.println(s.getName()));
     }
