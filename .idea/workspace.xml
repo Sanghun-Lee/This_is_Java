@@ -20,36 +20,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cf5c60c-5c46-4035-a00e-8fc6bb40c5b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/consumer/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/andThen_compose/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/predicate/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/function/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/operator/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/predicate/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/supplier/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/functional_interface/just_parameter/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/functional_interface/no_return_no_parameters/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/functional_interface/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/functional_interface/return_and_parameters/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/constructor/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/method/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/parameter/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream_16/aggregate/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream_16/filtering/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream_16/mapping/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream_16/matching/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream_16/reduce/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/ConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/consumer/ConsumerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/OperatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/operator/OperatorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/SupplierExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/supplier/SupplierExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/andThen_compose/FunctionAndThenComposeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/andThen_compose/FunctionAndThenComposeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/predicate/PredicateAndOrNegateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/default_method/predicate/PredicateAndOrNegateExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/function/FunctionExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/function/FunctionExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/minby_maxby/OperatorMinByMaxByExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/operator/OperatorMinByMaxByExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/predicate/PredicateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/predicate/PredicateExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/constructor/ConstructorReferencesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/constructor/ConstructorReferencesExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/constructor/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/constructor/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/method/MethodReferenceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/method_reference/method/MethodReferenceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/basic/Readmd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/ReadMd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/default_method/Readmd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/default_method/inheritance/Readmd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/inheritance/Readmd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/interface_/Readmd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/interface_8/multi_interface/Readmd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/nested_9/Readmd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/filtering/FilteringExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/filtering/FilteringExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/filtering/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/filtering/readmd.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/mapping/FlatMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/mapping/FlatMapExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/pipeline/StreamPipelinesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/pipeline/StreamPipelinesExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/pipeline/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/This_is_Java/stream_16/pipeline/readmd.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_expression_14/api/function/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_expression_14/api/function/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/aggregate/AggregateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/aggregate/AggregateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/aggregate/OptionalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/aggregate/OptionalExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/filtering/FilteringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/filtering/FilteringExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/filtering/readmd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/kind/get_stream_of_collection/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/kind/get_stream_of_collection/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/looping/LoopingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/looping/LoopingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/looping/Readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/looping/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/mapping/AsDoubleStreamAndBoxedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/mapping/AsDoubleStreamAndBoxedExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/mapping/FlatMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/mapping/FlatMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/mapping/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/mapping/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/matching/MatchExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/matching/MatchExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/pipeline/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/pipeline/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/reduce/ReductionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/reduce/ReductionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/sorting/Readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/sorting/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/sorting/SortingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/sorting/SortingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/sorting/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/sorting/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stream_16/stream/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/stream_16/stream/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +84,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FlatMapExample">
     <configuration name="ButtonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nested_9.interface_.ButtonExample" />
       <module name="This_is_Java" />
@@ -91,8 +98,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilteringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream_16.filtering.FilteringExample" />
+      <module name="This_is_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream_16.filtering.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlatMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream_16.mapping.FlatMapExample" />
+      <module name="This_is_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream_16.mapping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlatMapExample" />
+        <item itemvalue="Application.FilteringExample" />
         <item itemvalue="Application.ButtonExample" />
       </list>
     </recent_temporary>
@@ -131,22 +166,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1591768198865" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592812651213">
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom" timestamp="1593158658056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1592812651213" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592812651213">
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1593158658056" />
+    <state width="1877" height="185" key="GridCell.Tab.0.center" timestamp="1593158658056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1592812651213" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592812651213">
+    <state width="1877" height="185" key="GridCell.Tab.0.center/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1593158658056" />
+    <state width="1877" height="185" key="GridCell.Tab.0.left" timestamp="1593158658056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1592812651213" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592812651213">
+    <state width="1877" height="185" key="GridCell.Tab.0.left/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1593158658056" />
+    <state width="1877" height="185" key="GridCell.Tab.0.right" timestamp="1593158658056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1592812651213" />
+    <state width="1877" height="185" key="GridCell.Tab.0.right/1920.33.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1593158658056" />
     <state x="465" y="184" key="SettingsEditor" timestamp="1591769736217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

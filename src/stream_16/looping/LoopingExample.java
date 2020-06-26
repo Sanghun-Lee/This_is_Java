@@ -2,9 +2,12 @@ package stream_16.looping;
 
 import java.util.Arrays;
 
-// looping : stream의 요소 전체를 반복하는 것을 말한다.
-// peek()   : 중간 처리 메소드
-// forEach() : 최종 처리 메소드
+/**
+ * looping : stream의 요소 전체를 반복하는 것을 말한다.
+ * peek()   : 중간 처리 메소드
+ * forEach() : 최종 처리 메소드
+ */
+
 
 public class LoopingExample {
     public static void main(String[] args) {
