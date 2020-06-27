@@ -1,6 +1,18 @@
 package stream_16.collect;
 
-// 필터링해서 새로운 컬렉션 생성
+/**
+ * 필터링으로 새로운 컬렉션 생성
+ * 최종처리된 후, 해당 요소들을 컬렉션(List, Set, Map...) 형태로 만들기 위해서 collect() 메소드를 이용한다.
+ *
+ * collect() 메소드의 매개변수는 Collector<T, A, R> 클래스의 객체를 필요로 하는데,
+ * 해당 객체는 아래 정적 메소드를 이용해서 얻을 수 있다.
+ *
+ * Collector.toList() -> Collector<T, ?, List<T>> 객체를 리턴한다.
+ * .toSet(), .toMap() 도 위와 같이 리턴한다.
+ *
+ * HashMap이나, LinkedList와 같은 컬렉션을 사용하고 싶으면 .toCollection() 메소드를 사용하면 된다.
+ * Collector.toCollection(Supplier<Collection<T>>) 와 같은 형태이고, Supplier에 내가 원하는 컬렉션을 생성하면 된다.
+ */
 
 import java.util.Arrays;
 import java.util.HashSet;
