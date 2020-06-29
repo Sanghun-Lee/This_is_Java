@@ -14,10 +14,8 @@ package stream_16.collect;
  * Collector.toCollection(Supplier<Collection<T>>) 와 같은 형태이고, Supplier에 내가 원하는 컬렉션을 생성하면 된다.
  */
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
@@ -73,5 +71,29 @@ public class ToListExample {
                 }));
 
         femaleSet.forEach(s -> System.out.println(s.getName()));
+
+
+        // Collectors.toMap 메소드 사용해 보기
+        // Key는 이름, Value는 Student 객체로 만들어 보기
+        Map<String, Student> studentMap = totalList.stream().collect(Collectors.toMap(Student::getName, Function.identity()));
+
+        // 위와 같은 의미이다.
+        studentMap = totalList.stream().collect(Collectors.toMap(s -> s.getName(), s -> s));
+
+        // 이를 람다식 없이 구현해 보면
+        studentMap = totalList.stream().collect(
+                Collectors.toMap(new Function<Student, String> () {
+                    @Override
+                    public String apply(Student s) {
+                        return s.getName();
+                    }
+                }, new Function<Student, Student> () {
+                    @Override
+                    public Student apply(Student s) {
+                        return s;
+                    }
+                }));
+
+        System.out.println("studentMap - 박수미의 점수 : " + studentMap.get("박수미").getScore());
     }
 }

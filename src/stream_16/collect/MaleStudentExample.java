@@ -27,8 +27,8 @@ public class MaleStudentExample {
         MaleStudent maleStudent = totalList.stream()
                 .filter(s -> s.getSex() == Student.Sex.MALE)
                 .collect(
-                        () -> new MaleStudent(),    // supplier 선언
-                        (r, t) -> r.accumulate(t),  // biConsumer 선언, r : MaleStudent, t : Student 요소
+                        () -> new MaleStudent(),    // supplier 선언 (MaleStudent)의 생성자 이다.
+                        (r, t) -> r.accumulate(t),  // biConsumer 선언, r : MaleStudent, t : Student 요소 // 요소 t를 객체 r에 추가한다.
                         (r1, r2) -> r1.combine(r2)  // biConsumer r1에 r2값을 추가한다.
                 );
         // 컨테이너를 생성하는 Supplier 선언 / 객체를 추가하는 BiConsumer 선언 / 두 컨테이너를 결합하는 BiConsumer 선언

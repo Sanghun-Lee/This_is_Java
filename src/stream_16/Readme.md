@@ -15,4 +15,4 @@
 | 16.9 | aggregate     | 기본 집계 |
 | 16.10 | reduce     | 커스텀 집계|
 | 16.11 | collect     | 수집 |
-| 16.12 | filtering     | 병렬처리 |
+| 16.12 | parallel     | 병렬처리 |
