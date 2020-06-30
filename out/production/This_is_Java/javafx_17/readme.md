@@ -1,6 +1,6 @@
 ## JavaFX
 
-JavaFx는 java7부터 JDK에 포함되어 있다.
+JavaFx는 java7부터 JDK에 포함되어 있다. 하지만, Java11부터 다시 JDK에서 제외되었다.
 
 UI는
 
@@ -16,3 +16,8 @@ JavFx의 구성요소로는 아래와 같다.
 >
 > 리소스 (그림파일, 동영상 파일....)
 
+```
+JavaFX 설치 방법
+JavaFx SDK 다운로드 : https://gluonhq.com/products/javafx/
+JavaFx SDK 설정 : https://stackoverflow.com/questions/52682195/how-to-get-javafx-and-java-11-working-in-intellij-idea
+```

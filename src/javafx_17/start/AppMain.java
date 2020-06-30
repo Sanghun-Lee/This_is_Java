@@ -1,4 +1,4 @@
-package javafx_17;
+package javafx_17.start;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
