@@ -20,4 +20,7 @@ JavFx의 구성요소로는 아래와 같다.
 JavaFX 설치 방법
 JavaFx SDK 다운로드 : https://gluonhq.com/products/javafx/
 JavaFx SDK 설정 : https://stackoverflow.com/questions/52682195/how-to-get-javafx-and-java-11-working-in-intellij-idea
+
+VM option : --module-path /usr/lib/jvm/javafx/lib --add-modules javafx.controls,javafx.fxml
 ```
+

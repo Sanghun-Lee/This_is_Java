@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<!--루트 컨테이너 설정 (HBox) -->
+<!--xmlns : fx 접두어에 대한 네임스페이스 선언 -->
+<HBox xmlns:fx="http://javafx.com/fxml" >
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10" />
+    </padding>
+    <spacing></spacing>
+
+    <children>
+        <TextField>
+            <prefWidth>200</prefWidth>
+        </TextField>
+
+        <Button>
+            <text>확인</text>
+        </Button>
+    </children>
+</HBox>

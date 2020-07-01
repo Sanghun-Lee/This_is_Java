@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<GridPane xmlns="http://javafx.com/fxml" prefWidth="300.0" hgap="10.0" vgap="10.0">
+    <padding>
+        <Insets topRightBottomLeft="10.0" />
+    </padding>
+    <children>
+        <Label text="아이디" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+        <TextField GridPane.rowIndex="0" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" />
+        <Label text="패스워드" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+        <TextField GridPane.rowIndex="1" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" />
+
+        <!-- GridPane.columnSpan : 컬럼 2개 병합 -->
+        <HBox GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="2"
+              GridPane.hgrow="ALWAYS" alignment="CENTER" spacing="20.0">
+            <children>
+                <Button text="로그인" />
+                <Button text="취소" />
+            </children>
+        </HBox>
+    </children>
+</GridPane>
