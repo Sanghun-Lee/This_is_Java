@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Slider?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="javafx_17.property.change_listener.RootController" prefHeight="250.0" prefWidth="350.0" >
+    <center>
+        <Label fx:id="label" text="JavaFx">
+            <font>
+                <Font size="0" />
+            </font>
+        </Label>
+    </center>
+
+    <bottom>
+        <Slider fx:id="slider" />
+    </bottom>
+</BorderPane>

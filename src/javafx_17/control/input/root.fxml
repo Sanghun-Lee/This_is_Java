@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Button?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="javafx_17.control.input.RootController"
+            prefHeight="380" prefWidth="485">
+    <children>
+        <Label layoutX="22.0" layoutY="36.0" text="제목" />
+        <TextField fx:id="textTitle" layoutX="84.0" layoutY="32.0" prefHeight="23.0" prefWidth="375.0" />
+        <Label layoutX="22.0" layoutY="69.0" text="비밀번호" />
+        <PasswordField fx:id="textPassword" layoutX="86.0" layoutY="65.0" prefHeight="23.0" prefWidth="132.0" />
+        <Label layoutX="22.0" layoutY="104.0" text="공개" />
+        <ComboBox fx:id="comboPublic" layoutX="86.0" layoutY="100.0" prefHeight="23.0" prefWidth="132.0" promptText="선택하세요">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="공개" />
+                    <String fx:value="비공개" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+
+        <Label layoutX="240.0" layoutY="104.0" text="게시 종료" />
+        <DatePicker fx:id="dateExit" layoutX="296.0" layoutY="100.0" promptText="날짜를 선택해 주세요" />
+        <Label layoutX="22.0" layoutY="135.0" text="내용" />
+        <TextArea fx:id="textContent" layoutX="22.0" layoutY="154.0" prefHeight="132.0" prefWidth="440.0"/>
+        <Separator layoutX="13.0" layoutY="320" prefHeight="0.0" prefWidth="457.0" />
+        <Button fx:id="buttonRegister" layoutX="189.0" layoutY="340" text="등록" onAction="#handleButtonRegisterAction" />
+        <Button fx:id="buttonCancel" layoutX="252.0" layoutY="340" text="취소" onAction="#handleButtonCancelAction" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Button?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" prefHeight="150.0" prefWidth="420.0"
+            fx:controller="javafx_17.control.button.RootController">
+    <padding>
+        <Insets topRightBottomLeft="10.0" />
+    </padding>
+
+    <center>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="400.0" spacing="10">
+            <children>
+                <VBox prefWidth="100.0" prefHeight="100.0" spacing="20.0" alignment="CENTER_LEFT">
+                    <children>
+                        <CheckBox fx:id="check1" text="안경" onAction="#handleCheckAction" />
+                        <CheckBox fx:id="check2" text="모자" onAction="#handleCheckAction" />
+                    </children>
+                </VBox>
+
+                <ImageView fx:id="checkImageView" fitWidth="100.0" preserveRatio="true">
+                    <image><Image url="@images/geek.gif" /></image>
+                </ImageView>
+
+                <Separator orientation="VERTICAL" prefHeight="100.0" />
+
+                <VBox prefHeight="100" prefWidth="150" spacing="20.0" alignment="CENTER_LEFT">
+                    <fx:define><ToggleGroup fx:id="group"/></fx:define>
+
+                    <children>
+                        <RadioButton fx:id="radio1" text="BubbleChart" userData="BubbleChart" toggleGroup="$group" />
+                        <RadioButton fx:id="radio2" text="BarChart" userData="BarChart" toggleGroup="$group" />
+                        <RadioButton fx:id="radio3" text="AreaChart" userData="AreaChart" toggleGroup="$group" />
+                    </children>
+                </VBox>
+
+                <ImageView fx:id="radioImageView" fitWidth="100.0" preserveRatio="true">
+                    <image><Image url="@images/BarChart.png" /></image>
+                </ImageView>
+            </children>
+        </HBox>
+    </center>
+
+    <bottom>
+        <Button fx:id="buttonExit" BorderPane.alignment="CENTER" onAction="#handleButtonExitAction">
+            <graphic>
+                <ImageView><Image url="@images/exit.png" /></ImageView>
+            </graphic>
+            <BorderPane.margin><Insets top="20.0" /></BorderPane.margin>
+        </Button>
+    </bottom>
+</BorderPane>
