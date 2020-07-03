@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" prefHeight="220.0" prefWidth="530.0"
+            fx:controller="javafx_17.control.media.RootController">
+    <children>
+        <StackPane layoutX="10.0" layoutY="10.0">
+            <children>
+                <ImageView fx:id="imageView" fitHeight="200.0" fitWidth="360.0" preserveRatio="false">
+                    <image><Image url="@media/audio.png" /></image>
+                </ImageView>
+                <MediaView fx:id="mediaView" fitHeight="200.0" fitWidth="360.0" preserveRatio="false" />
+            </children>
+        </StackPane>
+        <Button fx:id="buttonPlay" layoutX="385.0" layoutY="15.0" prefHeight="23.0" prefWidth="131.0" text="재생" />
+        <Button fx:id="buttonPause" layoutX="385.0" layoutY="39.0" prefHeight="23.0" prefWidth="131.0" text="멈춤" />
+        <Button fx:id="buttonStop" layoutX="385.0" layoutY="63.0" prefHeight="23.0" prefWidth="131.0" text="중지" />
+    </children>
+</AnchorPane>
