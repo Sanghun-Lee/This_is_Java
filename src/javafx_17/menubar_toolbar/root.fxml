@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<?import javafx.scene.control.TextArea?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" prefHeight="200.0" prefWidth="400.0"
+            fx:controller="javafx_17.menubar_toolbar.RootController">
+    <top>
+        <VBox>
+            <children>
+                <MenuBar>
+                    <menus>
+                        <Menu text="파일">
+                            <items>
+                                <MenuItem text="새로 만들기" onAction="#handleNew" >
+                                    <accelerator>
+                                        <KeyCodeCombination alt="DOWN" code="N" control="UP" meta="UP" shift="DOWN" shortcut="UP" />
+                                    </accelerator>
+                                    <graphic>
+                                        <ImageView>
+                                            <image><Image url="@icons/new.png" /></image>
+                                        </ImageView>
+                                    </graphic>
+                                </MenuItem>
+                                <MenuItem text="열기" onAction="#handleOpen">
+                                    <accelerator>
+                                        <KeyCodeCombination alt="UP" code="O" control="DOWN" meta="UP" shift="UP" shortcut="UP"/>
+                                    </accelerator>
+                                    <graphic>
+                                        <ImageView>
+                                            <image><Image url="@icons/open.png"/></image>
+                                        </ImageView>
+                                    </graphic>
+                                </MenuItem>
+                                <MenuItem text="저장" onAction="#handleSave">
+                                    <accelerator>
+                                        <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                    </accelerator>
+                                    <graphic>
+                                        <ImageView>
+                                            <image><Image url="@icons/save.png" /></image>
+                                        </ImageView>
+                                    </graphic>
+                                </MenuItem>
+                                <SeparatorMenuItem />
+                                <MenuItem text="끝내기" onAction="#handleExit" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+
+                <ToolBar>
+                    <items>
+                        <Button onAction="#handleNew">
+                            <graphic>
+                                <ImageView>
+                                    <image><Image url="@icons/save.png" /></image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button onAction="#handleOpen">
+                            <graphic>
+                                <ImageView>
+                                    <image><Image url="@icons/open.png" /></image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <ComboBox prefWidth="100" promptText="선택">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="공개" />
+                                    <String fx:value="비공개" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                    </items>
+                </ToolBar>
+            </children>
+        </VBox>
+    </top>
+
+    <center>
+        <TextArea fx:id="textArea" />
+    </center>
+</BorderPane>
