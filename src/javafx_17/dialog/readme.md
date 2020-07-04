@@ -38,3 +38,32 @@ String selectedFilePath = selectedFile.getPath();               // 선택한 파
 
 `showOpenDialog`, `showSaveDialog` 메소드를 호출할 때에는 `소유자 윈도우`를 매개값으로 넣어야 한다.
 
+---
+
+##### 컨트롤러에서 primaryStage 사용
+
+`RootController.java`파일에서 `popup`을 호출하기 위해선 `stage`를 넘겨주어야 한다.
+
+이를 위해서 먼저 `RootController.java` 파일에서는 다음과 같이 `Stage 필드와 Setter`를 선언해야 한다.
+
+```java
+public class RootController implements Initializable {
+    private Stage primaryStage;
+    public void setPrimaryStage(Stage primaryStage) {
+        this.primaryStage = primaryStage;
+    }
+}
+```
+
+그리고 `RootController`의 객체를 생성하고, `setPrimaryStage`를 호출해서 `AppMain에 있는 Stage`를 넘겨 주어야 하는데,
+
+`RootController`의 객체를 얻기 위해선 `FXMLLoader`의 `getController` 메소드를 이용해서 객체를 얻는다.
+
+`getController`는 인스턴스 메소드 이기 때문에, FXMLLoader 객체를 생성해야 한다.
+
+```java
+FXMLLoader loader = new FXMLLoader(getClass().getResource("root.fxml"));
+Parent root = loader.load();
+RootController controller = loader.getController();
+controller.getController(stage);
+```

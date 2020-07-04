@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<HBox prefWidth="300" prefHeight="150" xmlns:fx="http://javafx.com/fxml" spacing="50" fillHeight="false" alignment="CENTER">
+    <padding>
+        <Insets topRightBottomLeft="10" />
+    </padding>
+
+    <children>
+        <Button fx:id="button1" prefWidth="100" prefHeight="50" text="DropShadow" />
+        <Button fx:id="button2" prefWidth="100" prefHeight="50" text="InnerShadow" />
+    </children>
+</HBox>

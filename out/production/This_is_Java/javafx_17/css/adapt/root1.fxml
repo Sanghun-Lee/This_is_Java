@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<HBox xmlns:fx="http://javafx.com/fxml" prefHeight="50" prefWidth="400" alignment="CENTER" spacing="20">
+    <children>
+        <Label fx:id="labelId" text="검정바탕, 노란글씨" />
+        <Label styleClass="labelClass" text="파란바탕, 흰글씨" />
+        <Label styleClass="labelClass" text="파란바탕, 흰글씨" />
+    </children>
+</HBox>

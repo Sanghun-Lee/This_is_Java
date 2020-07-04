@@ -1,0 +1,13 @@
+Label {
+    -fx-padding: 5;
+}
+
+#labelId {
+    -fx-background-color: black;
+    -fx-text-fill: yellow;
+}
+
+.labelClass {
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+}
