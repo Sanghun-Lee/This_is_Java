@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" prefHeight="100.0" prefWidth="200.0"
+            fx:controller="javafx_17.thread.run_later.RootController">
+    <children>
+        <Label fx:id="labelTime" alignment="CENTER" layoutX="25.0" layoutY="15.0" prefHeight="35.0" prefWidth="150.0"
+               style="-fx-background-color: black; -fx-text-fill: yellow; -fx-font-size: 20; -fx-background-radius: 10;" text="00:00:00" />
+        <Button fx:id="buttonStart" layoutX="46.0" layoutY="63.0" text="시작" />
+        <Button fx:id="buttonStop" layoutX="110.0" layoutY="63.0" text="멈춤" />
+    </children>
+</AnchorPane>
