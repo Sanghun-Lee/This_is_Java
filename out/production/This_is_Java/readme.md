@@ -13,9 +13,7 @@ basic : chap01 ~ 05
 > Chapter 14 - lambda expression (람다식) <br>
 > Chapter 15 - Collection Framework (컬렉션 프레임워크) <br>
 > Chapter 16 - stream (스트림)
-
-### Chapter 15 - Collection Framework
-
-1. List
-2. Set
-3. Map
+> Chapter 17 - JavaFx <br>
+> Chapter 18 - IO <br>
+> Chapter 19 - NIO <br>
+ 
